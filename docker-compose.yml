@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  hellogit:
+    image: hellogit
+    build:
+      context: .
+      dockerfile: ./Dockerfile
